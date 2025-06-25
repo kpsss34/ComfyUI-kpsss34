@@ -31,7 +31,9 @@ A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B par
   
 1.1 How to donwload
    Ex.repo [kpsss34/SANA600.fp8_illustrious_SFW_V1]
+   
    in root/ComfyUI/models/sana
+   
    - git clone https://huggingface.co/kpsss34/SANA600.fp8_illustrious_SFW_V1
 
 2. Place model folders in `ComfyUI/models/sana/`:
