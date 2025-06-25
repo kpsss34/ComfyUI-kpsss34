@@ -1,5 +1,9 @@
 # ComfyUI Sana Custom Node
 
+## Support my GPU rental fee for Finetune & Request the desired model
+
+https://coff.ee/kpsss34
+
 A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B parameters) with advanced features including LoRA support, PAG (Perturbed-Attention Guidance), and optimized VRAM usage.
 
 ## Installation
@@ -99,8 +103,3 @@ The node package provides three main components:
 
 ![Screenshot (23)](https://github.com/user-attachments/assets/119288c6-ef4f-49d7-8869-cdb5b6d9f2cc)
 
-## Support my GPU rental fee for Finetune & Request the desired model
-
-https://coff.ee/kpsss34
-
-Thank you.
