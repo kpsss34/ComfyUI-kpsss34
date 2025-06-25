@@ -1,0 +1,18 @@
+[project]
+name = "ComfyUI-kpsss34-Sana"
+description = "Diffusers Sana custom_node"
+version = "1.0.0"
+license = {text = "MIT"}
+dependencies = [
+    "diffusers>=0.28.0",
+	"transformers>=4.35.0",
+	"accelerate>=0.24.0",
+	"torch>=2.0.0",
+	"torchvision>=0.15.0",
+	"safetensors>=0.4.0",
+	"huggingface-hub>=0.19.0",
+	"peft>=0.7.0"
+]
+
+[project.urls]
+Repository = "https://github.com/kpsss34/ComfyUI-kpsss34-Sana"
