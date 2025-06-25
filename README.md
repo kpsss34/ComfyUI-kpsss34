@@ -34,6 +34,7 @@ A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B par
    - [FINETUNE MODELS](https://huggingface.co/kpsss34)
   
 1.1 How to donwload
+
    Ex.repo [kpsss34/SANA600.fp8_illustrious_SFW_V1]
    
    in root/ComfyUI/models/sana
