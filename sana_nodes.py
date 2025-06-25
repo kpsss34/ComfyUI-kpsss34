@@ -197,10 +197,10 @@ class SanaLoRALoader:
                 "fan_in_fan_out": False,
                 "inference_mode": True,
                 "init_lora_weights": True,
-                "lora_alpha": 32,
+                "lora_alpha": 16,
                 "lora_dropout": 0.0,
                 "peft_type": "LORA",
-                "r": 16,
+                "r": 4,
                 "target_modules": ["to_k", "to_q", "to_v", "to_out.0"],
                 "task_type": None,
                 "use_rslora": False
