@@ -99,6 +99,8 @@ The node package provides three main components:
 
 ![Screenshot (23)](https://github.com/user-attachments/assets/119288c6-ef4f-49d7-8869-cdb5b6d9f2cc)
 
-## Support my coffee & GPU rental fee for Finetune
+## Support my GPU rental fee for Finetune & Request the desired model
 
+https://coff.ee/kpsss34
 
+Thank you.
