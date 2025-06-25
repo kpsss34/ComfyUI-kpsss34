@@ -39,12 +39,12 @@ A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B par
 2. Place model folders in `ComfyUI/models/sana/`:
    ```
    ComfyUI/models/sana/
-   ├── Sana_600M_1024px/
+   ├── SANA600.fp8_illustrious_SFW_V1/
    │   ├── text_encoder/
    │   ├── transformer/
    │   ├── vae/
    │   └── ...
-   └── Sana_1600M_1024px/
+   └── SANA600.fp8_illustrious_SFW_V2/
        ├── text_encoder/
        ├── transformer/
        ├── vae/
