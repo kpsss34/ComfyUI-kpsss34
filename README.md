@@ -7,7 +7,7 @@ A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B par
 1. **Clone to ComfyUI custom nodes directory:**
    ```bash
    cd ComfyUI/custom_nodes/
-   git clone https://github.com/yourusername/ComfyUI-Sana-Node
+   git clone https://github.com/kpsss34/ComfyUI-Sana-Node.git
    cd ComfyUI-Sana-Node
    ```
 
