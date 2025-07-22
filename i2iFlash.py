@@ -25,7 +25,7 @@ class i2iFlash:
     def INPUT_TYPES(cls):
         return {"required": { "model_file": (folder_paths.get_filename_list("checkpoints"),), "image": ("IMAGE",),"instruction": ("STRING", { "multiline": True, "default": "prompt edit..." }),"guidance_scale": ("FLOAT", { "default": 5.0, "min": 1.0, "max": 20.0, "step": 0.1 }),"image_guidance_scale": ("FLOAT", { "default": 1.5, "min": 0.5, "max": 3.0, "step": 0.1 }),"num_inference_steps": ("INT", { "default": 30, "min": 10, "max": 100, "step": 1 }),"seed": ("INT", { "default": 43, "min": 0, "max": 2**32 }),"width": ("INT", { "default": 512, "min": 64, "max": 2048, "step": 8 }),"height": ("INT", { "default": 512, "min": 64, "max": 2048, "step": 8 }),}}
 
-    RETURN_TYPES = ("IMAGE",); FUNCTION = "edit_image"; CATEGORY = "image/editing"
+    RETURN_TYPES = ("IMAGE",); FUNCTION = "edit_image"; CATEGORY = "Sana/editing"
 
     def load_model(self, model_path):
         if not os.path.isfile(model_path): raise FileNotFoundError(f"Model file not found: {model_path}")
@@ -33,7 +33,7 @@ class i2iFlash:
         from safetensors import safe_open
         with safe_open(model_path, framework="pt", device="cpu") as f: metadata = f.metadata()
         
-        if not metadata or metadata.get("__format__") != "ComfyUI-I2I_06BFlash-TrueSingleFile-v2":
+        if not metadata or metadata.get("__format__") != "i2iFlash":
              raise ValueError("Model not packed correctly or is an old version. Please re-pack the model with the latest script.")
 
         if self.pipe is not None and self.current_model_path == model_path: return
