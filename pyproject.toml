@@ -6,8 +6,12 @@ license = {text = "MIT"}
 dependencies = [
     	"diffusers",
 	"transformers",
-	"peft",
- 	"sentencepiece"
+	"accelerate",
+	"torch",
+	"torchvision",
+	"safetensors",
+	"huggingface-hub",
+	"peft"
 ]
 
 [project.urls]
