@@ -8,10 +8,12 @@ dependencies = [
 	"transformers",
 	"accelerate",
 	"torch",
+ 	"bitsandbytes",
 	"torchvision",
 	"safetensors",
 	"huggingface-hub",
-	"peft"
+	"peft",
+ 	"sentencepiece"
 ]
 
 [project.urls]
