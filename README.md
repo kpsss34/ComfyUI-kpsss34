@@ -1,5 +1,5 @@
 # ComfyUI Custom Node
 
-## Support my GPU rental fee for Finetune & Request the desired model
+## Support me
 
 https://coff.ee/kpsss34
