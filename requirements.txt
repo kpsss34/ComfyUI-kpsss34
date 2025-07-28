@@ -1,9 +1,1 @@
-diffusers
-transformers 
-accelerate 
 bitsandbytes 
-peft 
-Pillow 
-torchvision 
-sentencepiece 
-xformers
