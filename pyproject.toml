@@ -4,14 +4,10 @@ description = "Diffusers custom_node"
 version = "1.0.0"
 license = {text = "MIT"}
 dependencies = [
-    	"diffusers",
-	"transformers",
-	"accelerate",
 	"torch",
 	"torchvision",
 	"safetensors",
-	"huggingface-hub",
-	"peft"
+	"huggingface-hub"
 ]
 
 [project.urls]
