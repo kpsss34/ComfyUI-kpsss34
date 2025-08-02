@@ -23,4 +23,4 @@ image = pipe(
 ).images[0]
 
 image.save(filename)
-print(f"✅ Saved as {filename} (seed: {seed})")
+print(f"Saved as {filename} (seed: {seed})")
