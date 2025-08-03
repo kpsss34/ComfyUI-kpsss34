@@ -15,6 +15,7 @@ filename = f"./img_{seed}_{int(time.time())}.png"
 
 image = pipe(
     prompt="",
+    negative_prompt="",
     num_inference_steps=40,
     guidance_scale=5.0,
     width=768,
