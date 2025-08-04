@@ -4,4 +4,4 @@
 
 https://coff.ee/kpsss34
 
-SD3.5s custome nodes is coming [In testing phase]
+SD3.5s custom nodes is coming [In testing phase]
