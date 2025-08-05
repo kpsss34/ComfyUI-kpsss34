@@ -8,6 +8,8 @@ I have completed a ComfyUI custom_node specifically designed to work with a dire
 
 Download checkpoints to ComfyUI/models/checkpoints
 
+LINK: https://huggingface.co/kpsss34/Stable-Diffusion-3.5-Small-Preview1/resolve/main/SD35sPreview1_Custom-nodes.safetensors
+
 ### Ez TO USE ###
 1.Install my custom node via the ComfyUI Manager.
 
