@@ -11,6 +11,7 @@ import tempfile
 import inspect
 import atexit
 import weakref
+from diffusers import DiffusionPipeline
 from typing import Any, Callable, Dict, List, Optional, Union
 try:
     from safetensors import safe_open
@@ -357,4 +358,5 @@ except:
     print("SD3.5s: Could not register with ComfyUI cleanup system")
 
 NODE_CLASS_MAPPINGS = { "SD35sLoaderSampler": SD35RepackedLoaderSampler }
+
 NODE_DISPLAY_NAME_MAPPINGS = { "SD35sLoaderSampler": "Load and Sample SD3.5s" }
