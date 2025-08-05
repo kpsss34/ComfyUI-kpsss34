@@ -2,6 +2,3 @@ diffusers
 transformers
 accelerate
 peft==0.15.0
-
-
-
