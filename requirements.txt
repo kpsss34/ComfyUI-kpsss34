@@ -1,8 +1,5 @@
 git+https://github.com/huggingface/diffusers.git
 transformers
 accelerate
-torch>=2.0.0
-torchvision>=0.15.0
-safetensors>=0.4.0
-huggingface-hub>=0.19.0
+
 
