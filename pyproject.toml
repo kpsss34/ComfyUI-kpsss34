@@ -7,10 +7,7 @@ dependencies = [
 	"torch",
 	"torchvision",
 	"safetensors",
-	"huggingface-hub",
-	"diffusers",
-	"transformers",
-	"safetensors"
+	"huggingface-hub"
 ]
 
 [project.urls]
