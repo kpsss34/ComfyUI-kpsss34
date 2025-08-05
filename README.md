@@ -22,6 +22,7 @@ Download checkpoints to ComfyUI/models/checkpoints
 <img width="1270" height="790" alt="Screenshot 2025-08-05 151028" src="https://github.com/user-attachments/assets/4a4f54b4-0069-4652-9e2e-d1c2495f908c" />
 
 Notes:
+
 1.The model I repacked is not compatible with standard ComfyUI nodes. It only works with this custom node.
 
 2.Unpacking the model into RAM may take a while on the first run — typically around 1–2 minutes, depending on your system.
