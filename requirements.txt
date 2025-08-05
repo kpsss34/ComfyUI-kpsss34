@@ -1,6 +1,3 @@
 #diffusers==0.34.0
 #transformers==4.54.1
 #peft==0.15.0
-
-
-
