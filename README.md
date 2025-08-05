@@ -4,6 +4,8 @@
 
 https://coff.ee/kpsss34
 
+### ComfyUI inference Supprot ###
+
 I have completed a ComfyUI custom_node specifically designed to work with a direct pipeline implementation. Please note that this node is not compatible with standard ComfyUI nodes. If you wish to use the models I’ve trained, it is recommended to use this custom node for image generation.
 
 Download checkpoints to ComfyUI/models/checkpoints
