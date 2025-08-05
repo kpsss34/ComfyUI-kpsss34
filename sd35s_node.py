@@ -305,7 +305,10 @@ class SD35RepackedLoaderSampler:
             
         model_path = folder_paths.get_full_path("checkpoints", model_name)
         device = model_management.get_torch_device()
-        dtype = torch.bfloat16 if model_management.should_use_bf16() else torch.float16
+        if device == "cpu":
+          dtype = torch.float32
+        else:
+          dtype = torch.bfloat16 if model_management.should_use_bf16() else torch.float16
 
         pbar = comfy.utils.ProgressBar(steps)
         def callback(pipe, i, t, kwargs): 
