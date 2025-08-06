@@ -36,7 +36,7 @@ Notes:
 3.The model requires approximately 7–9GB of VRAM.
 
 
-### LORA TRAINIG ###
+### LORA TRAINING ###
 
 Note: LoRA is not yet supported in ComfyUI.(Only Diffusers use)
 If I have time, I’ll work on adding support.
