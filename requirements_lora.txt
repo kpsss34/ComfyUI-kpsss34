@@ -1,0 +1,10 @@
+git+https://github.com/huggingface/diffusers.git 
+transformers 
+accelerate 
+bitsandbytes 
+wandb 
+torch 
+torchvision 
+tensorboard 
+sentencepiece 
+xformers
