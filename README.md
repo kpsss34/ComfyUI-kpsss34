@@ -48,10 +48,10 @@ git clone https://github.com/kpsss34/ComfyUI-kpsss34.git
 cd ComfyUI-kpsss34
 python -m venv venv
 source venv/bin/activate
+# On Windows use: venv\Scripts\activate
 pip install -r requirements_lora.txt
 pip install -U peft
 ```
-# On Windows use: venv\Scripts\activate
 
 - Basic argument for run
 
